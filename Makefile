@@ -9,3 +9,6 @@ compile:
 
 run: compile
 	$(NODE) dist/main.js
+
+compile/watch:
+	$(YARN) run tsc/watch

@@ -6,7 +6,8 @@
   "author": "Arata Tanaka <tarata43@yahoo.co.jp>",
   "license": "MIT",
   "scripts": {
-      "tsc": "tsc --project ."
+      "tsc": "tsc --project .",
+      "tsc/watch": "tsc --project . --watch"
   },
   "dependencies": {
     "typescript": "^2.9.1"
