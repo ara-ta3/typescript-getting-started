@@ -5,6 +5,9 @@
   "repository": "ssh://git@github.com/ara-ta3/typescript-getting-started.git",
   "author": "Arata Tanaka <tarata43@yahoo.co.jp>",
   "license": "MIT",
+  "scripts": {
+      "tsc": "tsc --project ."
+  },
   "dependencies": {
     "typescript": "^2.9.1"
   }
