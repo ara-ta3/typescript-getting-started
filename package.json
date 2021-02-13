@@ -10,6 +10,9 @@
     "tsc/watch": "tsc --project . --watch",
     "test": "jest"
   },
+  "engines": {
+      "node": ">=14"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.20",
