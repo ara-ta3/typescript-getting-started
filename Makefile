@@ -1,6 +1,8 @@
 YARN=yarn
 NODE=node
 
+.PHONY: test
+
 install:
 	$(YARN) install
 
